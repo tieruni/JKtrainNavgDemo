@@ -1,0 +1,17 @@
+//
+//  JKTrainPrefixHeader.pch
+//  JKtrainNavgDemo
+//
+//  Created by ZhiF_Zhu on 2020/4/4.
+//  Copyright © 2020 ZhiF_Zhu. All rights reserved.
+//
+
+#ifndef JKTrainPrefixHeader_pch
+#define JKTrainPrefixHeader_pch
+
+#import "AFNetworking.h"
+#import "SDWebImage.h"
+#import "MBProgressHUD.h"
+
+
+#endif /* JKTrainPrefixHeader_pch */

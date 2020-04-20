@@ -1,0 +1,6 @@
+framework module Pods_JKtrainNavgDemo {
+  umbrella header "Pods-JKtrainNavgDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12FDD5EA11E377A88F106524 /* Pods_JKtrainNavgDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3199E0D581A9B579E05593F /* Pods_JKtrainNavgDemo.framework */; };
+		F906A4D624387E2100815132 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A4D524387E2100815132 /* NewsViewController.m */; };
+		F906A4D9243880DA00815132 /* VidioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A4D8243880DA00815132 /* VidioViewController.m */; };
+		F906A4DC243887D900815132 /* WKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A4DB243887D900815132 /* WKDetailViewController.m */; };
+		F906A4E02438987700815132 /* ListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A4DF2438987700815132 /* ListLoader.m */; };
+		F906A5192438A63F00815132 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A5182438A63F00815132 /* ListModel.m */; };
+		F906A51E2438B0F800815132 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A51D2438B0F800815132 /* NewsCell.m */; };
+		F9261C962441A2350051433C /* Sources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9261C952441A2350051433C /* Sources.bundle */; };
+		F92BA954243864E5002CB957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BA953243864E5002CB957 /* AppDelegate.m */; };
+		F92BA95A243864E5002CB957 /* JKTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BA959243864E5002CB957 /* JKTViewController.m */; };
+		F92BA95D243864E5002CB957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92BA95B243864E5002CB957 /* Main.storyboard */; };
+		F92BA95F243864E7002CB957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92BA95E243864E7002CB957 /* Assets.xcassets */; };
+		F92BA962243864E7002CB957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92BA960243864E7002CB957 /* LaunchScreen.storyboard */; };
+		F92BA965243864E7002CB957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BA964243864E7002CB957 /* main.m */; };
+		F95C6DE8243A2659005924D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95C6DE7243A2659005924D2 /* AVFoundation.framework */; };
+		F95C6DEB243A38B3005924D2 /* Vidioplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F95C6DEA243A38B3005924D2 /* Vidioplayer.m */; };
+		F95CFAA1243A1F540044BBD0 /* JKVidioCoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F95CFAA0243A1F540044BBD0 /* JKVidioCoverCell.m */; };
+		F9712C84244577E200B678EC /* JkNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F9712C83244577E200B678EC /* JkNotification.m */; };
+		F9712C86244578F600B678EC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9712C85244578F600B678EC /* UserNotifications.framework */; };
+		F9768CD12445D0F80015E9F8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9768CD02445D0F80015E9F8 /* NotificationCenter.framework */; };
+		F9768CD52445D0F80015E9F8 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9768CD42445D0F80015E9F8 /* TodayViewController.m */; };
+		F9768CDC2445D0F80015E9F8 /* JKExtenxion.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F9768CCF2445D0F80015E9F8 /* JKExtenxion.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9768CDA2445D0F80015E9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92BA947243864E5002CB957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9768CCE2445D0F80015E9F8;
+			remoteInfo = JKExtenxion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9768CDD2445D0F80015E9F8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F9768CDC2445D0F80015E9F8 /* JKExtenxion.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F59206B2EC97E2D2736450C /* Pods-JKtrainNavgDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKtrainNavgDemo.release.xcconfig"; path = "Target Support Files/Pods-JKtrainNavgDemo/Pods-JKtrainNavgDemo.release.xcconfig"; sourceTree = "<group>"; };
+		758E15A8B8A754B7FA59AFE6 /* Pods-JKtrainNavgDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKtrainNavgDemo.debug.xcconfig"; path = "Target Support Files/Pods-JKtrainNavgDemo/Pods-JKtrainNavgDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C3199E0D581A9B579E05593F /* Pods_JKtrainNavgDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKtrainNavgDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F906A4D424387E2100815132 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		F906A4D524387E2100815132 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		F906A4D7243880DA00815132 /* VidioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidioViewController.h; sourceTree = "<group>"; };
+		F906A4D8243880DA00815132 /* VidioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VidioViewController.m; sourceTree = "<group>"; };
+		F906A4DA243887D900815132 /* WKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDetailViewController.h; sourceTree = "<group>"; };
+		F906A4DB243887D900815132 /* WKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKDetailViewController.m; sourceTree = "<group>"; };
+		F906A4DE2438987700815132 /* ListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListLoader.h; sourceTree = "<group>"; };
+		F906A4DF2438987700815132 /* ListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListLoader.m; sourceTree = "<group>"; };
+		F906A5172438A63F00815132 /* ListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		F906A5182438A63F00815132 /* ListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		F906A51C2438B0F800815132 /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		F906A51D2438B0F800815132 /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		F9261C952441A2350051433C /* Sources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Sources.bundle; sourceTree = "<group>"; };
+		F92BA94F243864E5002CB957 /* JKtrainNavgDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKtrainNavgDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92BA952243864E5002CB957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F92BA953243864E5002CB957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F92BA958243864E5002CB957 /* JKTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKTViewController.h; sourceTree = "<group>"; };
+		F92BA959243864E5002CB957 /* JKTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTViewController.m; sourceTree = "<group>"; };
+		F92BA95C243864E5002CB957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92BA95E243864E7002CB957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92BA961243864E7002CB957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F92BA963243864E7002CB957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92BA964243864E7002CB957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F95C6DE7243A2659005924D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F95C6DE9243A38B3005924D2 /* Vidioplayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vidioplayer.h; sourceTree = "<group>"; };
+		F95C6DEA243A38B3005924D2 /* Vidioplayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vidioplayer.m; sourceTree = "<group>"; };
+		F95CFA9F243A1F540044BBD0 /* JKVidioCoverCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKVidioCoverCell.h; sourceTree = "<group>"; };
+		F95CFAA0243A1F540044BBD0 /* JKVidioCoverCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKVidioCoverCell.m; sourceTree = "<group>"; };
+		F9712C82244577E200B678EC /* JkNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JkNotification.h; sourceTree = "<group>"; };
+		F9712C83244577E200B678EC /* JkNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JkNotification.m; sourceTree = "<group>"; };
+		F9712C85244578F600B678EC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F9768CCF2445D0F80015E9F8 /* JKExtenxion.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JKExtenxion.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9768CD02445D0F80015E9F8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F9768CD32445D0F80015E9F8 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		F9768CD42445D0F80015E9F8 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		F9768CD92445D0F80015E9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9768CE12445D3DB0015E9F8 /* JKExtenxion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JKExtenxion.entitlements; sourceTree = "<group>"; };
+		F9863F312438CFF0001FA973 /* JKTrainPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKTrainPrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92BA94C243864E5002CB957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95C6DE8243A2659005924D2 /* AVFoundation.framework in Frameworks */,
+				12FDD5EA11E377A88F106524 /* Pods_JKtrainNavgDemo.framework in Frameworks */,
+				F9712C86244578F600B678EC /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9768CCC2445D0F80015E9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9768CD12445D0F80015E9F8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8DC637B5F475F13D63CE4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9712C85244578F600B678EC /* UserNotifications.framework */,
+				F95C6DE7243A2659005924D2 /* AVFoundation.framework */,
+				C3199E0D581A9B579E05593F /* Pods_JKtrainNavgDemo.framework */,
+				F9768CD02445D0F80015E9F8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E3D10C009B5E2D18ECD2D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758E15A8B8A754B7FA59AFE6 /* Pods-JKtrainNavgDemo.debug.xcconfig */,
+				2F59206B2EC97E2D2736450C /* Pods-JKtrainNavgDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F906A4DD2438986200815132 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				F906A4DE2438987700815132 /* ListLoader.h */,
+				F906A4DF2438987700815132 /* ListLoader.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		F906A5162438A62A00815132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F906A5172438A63F00815132 /* ListModel.h */,
+				F906A5182438A63F00815132 /* ListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F906A51A2438B09400815132 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F906A4D424387E2100815132 /* NewsViewController.h */,
+				F906A4D524387E2100815132 /* NewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F906A51B2438B0A600815132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F906A51C2438B0F800815132 /* NewsCell.h */,
+				F906A51D2438B0F800815132 /* NewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F92BA946243864E5002CB957 = {
+			isa = PBXGroup;
+			children = (
+				F92BA951243864E5002CB957 /* JKtrainNavgDemo */,
+				F9768CD22445D0F80015E9F8 /* JKExtenxion */,
+				F92BA950243864E5002CB957 /* Products */,
+				9E3D10C009B5E2D18ECD2D32 /* Pods */,
+				2C8DC637B5F475F13D63CE4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F92BA950243864E5002CB957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92BA94F243864E5002CB957 /* JKtrainNavgDemo.app */,
+				F9768CCF2445D0F80015E9F8 /* JKExtenxion.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92BA951243864E5002CB957 /* JKtrainNavgDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F9712C81244577C400B678EC /* 推送 */,
+				F95CFA9D243A1EB90044BBD0 /* 视频 */,
+				F986401E2438DD7C001FA973 /* 新闻 */,
+				F92BA952243864E5002CB957 /* AppDelegate.h */,
+				F92BA953243864E5002CB957 /* AppDelegate.m */,
+				F92BA958243864E5002CB957 /* JKTViewController.h */,
+				F92BA959243864E5002CB957 /* JKTViewController.m */,
+				F92BA95B243864E5002CB957 /* Main.storyboard */,
+				F92BA95E243864E7002CB957 /* Assets.xcassets */,
+				F92BA960243864E7002CB957 /* LaunchScreen.storyboard */,
+				F92BA963243864E7002CB957 /* Info.plist */,
+				F92BA964243864E7002CB957 /* main.m */,
+				F9863F312438CFF0001FA973 /* JKTrainPrefixHeader.pch */,
+			);
+			path = JKtrainNavgDemo;
+			sourceTree = "<group>";
+		};
+		F95CFA9D243A1EB90044BBD0 /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				F9261C952441A2350051433C /* Sources.bundle */,
+				F95CFA9E243A1ECB0044BBD0 /* Controller */,
+				F95CFAA3243A1F7D0044BBD0 /* View */,
+				F95CFAA2243A1F6E0044BBD0 /* Player */,
+			);
+			path = "视频";
+			sourceTree = "<group>";
+		};
+		F95CFA9E243A1ECB0044BBD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F906A4D7243880DA00815132 /* VidioViewController.h */,
+				F906A4D8243880DA00815132 /* VidioViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F95CFAA2243A1F6E0044BBD0 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F95C6DE9243A38B3005924D2 /* Vidioplayer.h */,
+				F95C6DEA243A38B3005924D2 /* Vidioplayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		F95CFAA3243A1F7D0044BBD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F95CFA9F243A1F540044BBD0 /* JKVidioCoverCell.h */,
+				F95CFAA0243A1F540044BBD0 /* JKVidioCoverCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9712C81244577C400B678EC /* 推送 */ = {
+			isa = PBXGroup;
+			children = (
+				F9712C82244577E200B678EC /* JkNotification.h */,
+				F9712C83244577E200B678EC /* JkNotification.m */,
+			);
+			path = "推送";
+			sourceTree = "<group>";
+		};
+		F9768CD22445D0F80015E9F8 /* JKExtenxion */ = {
+			isa = PBXGroup;
+			children = (
+				F9768CE12445D3DB0015E9F8 /* JKExtenxion.entitlements */,
+				F9768CD32445D0F80015E9F8 /* TodayViewController.h */,
+				F9768CD42445D0F80015E9F8 /* TodayViewController.m */,
+				F9768CD92445D0F80015E9F8 /* Info.plist */,
+			);
+			path = JKExtenxion;
+			sourceTree = "<group>";
+		};
+		F986401E2438DD7C001FA973 /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				F986401F2438DD86001FA973 /* Detail */,
+				F906A51A2438B09400815132 /* Controller */,
+				F906A5162438A62A00815132 /* Model */,
+				F906A51B2438B0A600815132 /* View */,
+				F906A4DD2438986200815132 /* Loader */,
+			);
+			path = "新闻";
+			sourceTree = "<group>";
+		};
+		F986401F2438DD86001FA973 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F906A4DA243887D900815132 /* WKDetailViewController.h */,
+				F906A4DB243887D900815132 /* WKDetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92BA94E243864E5002CB957 /* JKtrainNavgDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92BA968243864E7002CB957 /* Build configuration list for PBXNativeTarget "JKtrainNavgDemo" */;
+			buildPhases = (
+				EF4FC9428526BF064450787A /* [CP] Check Pods Manifest.lock */,
+				F92BA94B243864E5002CB957 /* Sources */,
+				F92BA94C243864E5002CB957 /* Frameworks */,
+				F92BA94D243864E5002CB957 /* Resources */,
+				8D23D670F8CEDCFA0B764FFA /* [CP] Embed Pods Frameworks */,
+				F9768CDD2445D0F80015E9F8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9768CDB2445D0F80015E9F8 /* PBXTargetDependency */,
+			);
+			name = JKtrainNavgDemo;
+			productName = JKtrainNavgDemo;
+			productReference = F92BA94F243864E5002CB957 /* JKtrainNavgDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9768CCE2445D0F80015E9F8 /* JKExtenxion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9768CE02445D0F80015E9F8 /* Build configuration list for PBXNativeTarget "JKExtenxion" */;
+			buildPhases = (
+				F9768CCB2445D0F80015E9F8 /* Sources */,
+				F9768CCC2445D0F80015E9F8 /* Frameworks */,
+				F9768CCD2445D0F80015E9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKExtenxion;
+			productName = JKExtenxion;
+			productReference = F9768CCF2445D0F80015E9F8 /* JKExtenxion.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92BA947243864E5002CB957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = ZhiF_Zhu;
+				TargetAttributes = {
+					F92BA94E243864E5002CB957 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F9768CCE2445D0F80015E9F8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F92BA94A243864E5002CB957 /* Build configuration list for PBXProject "JKtrainNavgDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92BA946243864E5002CB957;
+			productRefGroup = F92BA950243864E5002CB957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92BA94E243864E5002CB957 /* JKtrainNavgDemo */,
+				F9768CCE2445D0F80015E9F8 /* JKExtenxion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92BA94D243864E5002CB957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92BA962243864E7002CB957 /* LaunchScreen.storyboard in Resources */,
+				F92BA95F243864E7002CB957 /* Assets.xcassets in Resources */,
+				F9261C962441A2350051433C /* Sources.bundle in Resources */,
+				F92BA95D243864E5002CB957 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9768CCD2445D0F80015E9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D23D670F8CEDCFA0B764FFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKtrainNavgDemo/Pods-JKtrainNavgDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKtrainNavgDemo/Pods-JKtrainNavgDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JKtrainNavgDemo/Pods-JKtrainNavgDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4FC9428526BF064450787A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKtrainNavgDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92BA94B243864E5002CB957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F906A4D9243880DA00815132 /* VidioViewController.m in Sources */,
+				F95CFAA1243A1F540044BBD0 /* JKVidioCoverCell.m in Sources */,
+				F92BA95A243864E5002CB957 /* JKTViewController.m in Sources */,
+				F92BA954243864E5002CB957 /* AppDelegate.m in Sources */,
+				F906A51E2438B0F800815132 /* NewsCell.m in Sources */,
+				F92BA965243864E7002CB957 /* main.m in Sources */,
+				F906A5192438A63F00815132 /* ListModel.m in Sources */,
+				F9712C84244577E200B678EC /* JkNotification.m in Sources */,
+				F95C6DEB243A38B3005924D2 /* Vidioplayer.m in Sources */,
+				F906A4D624387E2100815132 /* NewsViewController.m in Sources */,
+				F906A4DC243887D900815132 /* WKDetailViewController.m in Sources */,
+				F906A4E02438987700815132 /* ListLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9768CCB2445D0F80015E9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9768CD52445D0F80015E9F8 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9768CDB2445D0F80015E9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9768CCE2445D0F80015E9F8 /* JKExtenxion */;
+			targetProxy = F9768CDA2445D0F80015E9F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F92BA95B243864E5002CB957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92BA95C243864E5002CB957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92BA960243864E7002CB957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92BA961243864E7002CB957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92BA966243864E7002CB957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F92BA967243864E7002CB957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92BA969243864E7002CB957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758E15A8B8A754B7FA59AFE6 /* Pods-JKtrainNavgDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JKtrainNavgDemo/JKTrainPrefixHeader.pch";
+				INFOPLIST_FILE = JKtrainNavgDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zf.test1.JKtrainNavgDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92BA96A243864E7002CB957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F59206B2EC97E2D2736450C /* Pods-JKtrainNavgDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JKtrainNavgDemo/JKTrainPrefixHeader.pch";
+				INFOPLIST_FILE = JKtrainNavgDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zf.test1.JKtrainNavgDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9768CDE2445D0F80015E9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JKExtenxion/JKExtenxion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKExtenxion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zf.test1.JKtrainNavgDemo.JKExtenxion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9768CDF2445D0F80015E9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JKExtenxion/JKExtenxion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKExtenxion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zf.test1.JKtrainNavgDemo.JKExtenxion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92BA94A243864E5002CB957 /* Build configuration list for PBXProject "JKtrainNavgDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92BA966243864E7002CB957 /* Debug */,
+				F92BA967243864E7002CB957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92BA968243864E7002CB957 /* Build configuration list for PBXNativeTarget "JKtrainNavgDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92BA969243864E7002CB957 /* Debug */,
+				F92BA96A243864E7002CB957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9768CE02445D0F80015E9F8 /* Build configuration list for PBXNativeTarget "JKExtenxion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9768CDE2445D0F80015E9F8 /* Debug */,
+				F9768CDF2445D0F80015E9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92BA947243864E5002CB957 /* Project object */;
+}
